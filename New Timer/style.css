@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('image.png') center/cover no-repeat;
+    backdrop-filter: blur(8px);
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+input {
+    width: 80px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    background: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #039a5c;
+    transform: scale(1.05);
+}
+
+.timer-display, .stopwatch-display {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
